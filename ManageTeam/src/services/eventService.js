@@ -33,7 +33,7 @@ export const updateEvent = async (title, description, date, type, eventId) => {
     }
 };
 
-// Función para actualizar un evento
+// Función para borrar un evento
 export const deleteEvent = async (eventId) => {
     try {
         console.log(`Eliminando evento con ID: ${eventId}`);
